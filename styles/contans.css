@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: block;
+    background:  rgb(41, 45, 51);
+}
+#sidebar.active{
+    left:0px;
+}
+
+#sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #5e83ba;
+    border-right: 4px solid #E0E5EA;
+    left: -250px;
+    transition: all 300ms;
+}
+
+
+#sidebar ul li:first-child{
+    text-align: center;
+    color: white;
+    font-size: 1.95em;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+}
+
+#sidebar ul li:not(:first-child){
+    width: 90%;
+    font-size: 1.1em;
+    list-style: none;
+    padding: 15px 12.5px;
+}
+
+#sidebar ul li a{
+    
+    color: #dfe5eb;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover{
+    color: #59e9df;
+    
+}
+
+#sidebar .toggle{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background: #E0E5EA;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#sidebar .toggle:hover{
+    background: #556270;
+}
+
+#sidebar .toggle:hover span{
+    background: #fafafa;
+}
+
+#sidebar .toggle span{
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #666;
+    margin: 4px 0;
+}
+main{
+    
+}
+.txt h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.75rem;
+    width: 770px;
+    padding: 5% 0 0 40%;
+    color: #2cccc4
+}
+
+.border{
+    width: 65px;
+    height: 5px;
+    transform-origin: right center;
+    margin: 2% 0 0 52%;
+    border-style: solid;
+    border-color: #2cccc4;
+    border-width: 3px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.layout{
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    color: #111111;
+    background-color: #f5f7fa;
+    margin: 2% 10% 20px 15%;
+    
+}
+
+.box{
+    padding: 7% 20px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.box h5,p{
+    line-height: 20px;
+    color: #666;
+    word-wrap: break-word;
+    position: relative;
+    text-align: center;
+    
+}
+.box img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto 10px auto;
+   
+}
+
+.box a{
+    color: #1eff00;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box a:hover{
+    color: #00aeff;
+
+}

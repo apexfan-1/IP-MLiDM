@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #016392;
+}
+
+#sidebar.active{
+    left:0px;
+}
+
+#sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #5e83ba;
+    border-right: 4px solid #E0E5EA;
+    left: -250px;
+    transition: all 300ms;
+}
+
+
+#sidebar ul li:first-child{
+    text-align: center;
+    color: white;
+    font-size: 1.95em;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+}
+
+#sidebar ul li:not(:first-child){
+    width: 90%;
+    font-size: 1.1em;
+    list-style: none;
+    padding: 15px 12.5px;
+}
+
+#sidebar ul li a{
+    
+    color: #dfe5eb;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover{
+    color: #59e9df;
+    
+}
+
+#sidebar .toggle{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background: #E0E5EA;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#sidebar .toggle:hover{
+    background: #556270;
+}
+
+#sidebar .toggle:hover span{
+    background: #fafafa;
+}
+
+#sidebar .toggle span{
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #666;
+    margin: 4px 0;
+}
+
+.slider{
+    border: 2px solid #000;
+    max-width: 50%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.line{
+    position: relative;
+    display: flex;
+    transition: all ease 1s;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    margin-right: 10%;
+    font-size: .9rem;
+    padding: 1% 1%;
+}
+.prev{
+    margin-left: 40%;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
