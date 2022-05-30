@@ -17,11 +17,11 @@
             </div>
             <ul>
                 <li>Меню</li>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.html">Обо мне</a> </li>
-                <li><a href="works.html">Работы</a></li>
-                <li><a href="gallery.html">Галерея</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="about.php">Обо мне</a> </li>
+                <li><a href="works.php">Работы</a></li>
+                <li><a href="gallery.php">Галерея</a></li>
+                <li><a href="contacts.php">Контакты</a></li>
             </ul>
         </div>
     </header>
