@@ -8,23 +8,7 @@
     <link rel="stylesheet" href="styles/about.css">
 </head>
 <body>
-    <header>
-        <div id = "sidebar">
-            <div class="toggle" onclick="openMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul>
-                <li>Меню</li>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.php">Обо мне</a> </li>
-                <li><a href="works.html">Работы</a></li>
-                <li><a href="gallery.html">Галерея</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-    </header>
+    <?php include_once "header.php"?>
                 
     <main>
         <div class="container">
