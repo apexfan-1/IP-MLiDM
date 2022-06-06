@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #a8a4a4;
+}
+div h2{
+    text-align: center;
+}
+
+.head{
+    padding: 1%;
+    background: rgb(2, 219, 248);
+}
+table{
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+td{
+    font-size: 20px;
+    color:rgb(255, 243, 131);
+}
+input{
+    margin-left: 1%;
+
+}
+button {
+    font-size: 18px;
+    margin-left: 10px;
+    border-width: 0;
+    border-radius: 5px;
+    background: #4865ad;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+.answ
+{
+    margin-top: 100px;
+}

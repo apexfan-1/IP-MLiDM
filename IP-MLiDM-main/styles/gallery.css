@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #016392;
+}
+
+.slider{
+    
+    border: 2px solid #000;
+    max-width: 50%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.line{
+    position: relative;
+    display: flex;
+    transition: all ease 1s;
+}
+.container{
+    max-width: 80%;
+    display: inline-block;
+}
+button {
+    background: none;
+    border: 1px solid black;
+    margin-right: 10%;
+    font-size: .9rem;
+    padding: 1% 1%;
+}
+.prev{
+    margin-left: 40%;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
