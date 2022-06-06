@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Крестики нолики</title>
+    <link rel="stylesheet" href="./styles/game.css">
 </head>
 <body>
-    <canvas id = "game" w></canvas>
+    <div class="content">
+    <div class="currentPlayer">
+            <span>Сейчас ходит: <span id="curPlyr">X</span></span>
+        </div>
+
+        <div id="area"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="sX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="sO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td><span id="sD">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
     <script src = "./script/game.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </body>
 </html>
