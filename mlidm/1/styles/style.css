@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #292929;
+}
+div h2{
+    text-align: center;
+}
+
+.head{
+    padding: 1%;
+    background: orangered;
+}
+table{
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+td{
+    font-size: 20px;
+    color:rgb(255, 243, 131);
+}
+input{
+    margin-left: 1%;
+
+}
+.button {
+    display:grid;
+    font-size: 18px;
+    margin-left: 10px;
+    border-width: 0;
+    color: black;
+    
+    margin-top: 3%;
+}

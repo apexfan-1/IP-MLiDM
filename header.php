@@ -22,9 +22,11 @@
                 <li><a href="works.php">Работы</a></li>
                 <li><a href="gallery.php">Галерея</a></li>
                 <li><a href="contacts.php">Контакты</a></li>
+                <li><a href="game.php">Игра</a></li>
+                <li><a  href="auth.php">Войти</a></li>
             </ul>
         </div>
-        <script src = "script/scpipt.js"></script>
+        <script src = "script/script.js"></script>
 
 </body>
 </html>

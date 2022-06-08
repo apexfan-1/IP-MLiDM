@@ -26,13 +26,13 @@
     list-style: none;
     padding: 25px 10px 10px 10px;
 }
-
 #sidebar ul li:not(:first-child){
     width: 90%;
     font-size: 1.1em;
     list-style: none;
     padding: 15px 12.5px;
 }
+
 
 #sidebar ul li a{
     

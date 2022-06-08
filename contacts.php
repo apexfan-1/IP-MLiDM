@@ -33,6 +33,5 @@
             </div>
         </div>
     </main>
-    <script src = "script/scpipt.js"></script>
 </body>
 </html>
