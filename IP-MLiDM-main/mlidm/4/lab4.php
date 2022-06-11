@@ -16,16 +16,18 @@
             <form action="" method="post" enctype="multipart/form-data" onsubmit="return false;">
                 <div id="graphView">
                     <label for="txtAr">Ввод графа: </label>
-                    <textarea id="txtAr" spellcheck="false" placeholder="value0 value1 value2 ... valueN" name="graph"></textarea>
+                    <textarea id="txtAr" spellcheck="false" placeholder="1 2 *
+                                                                         3 2 2
+                                                                         * 2 *" name="graph"></textarea>
                 </div>
                 <table id="boundsView">
                     <tr>
                         <td><label for="startElem">Начальный элемент: </label></td>
-                        <td><input id="startElem" type="text" placeholder="X" name="start"></td>
+                        <td><input id="startElem" type="text" placeholder="" name="start"></td>
                     </tr>
                     <tr>
                         <td><label for="endElem">Конечный элемент: </label></td>
-                        <td><input id="endElem" type="text" placeholder="Y" name="end"></td>
+                        <td><input id="endElem" type="text" placeholder="" name="end"></td>
                     </tr>
                 </table>
                 <div id="commitView">
