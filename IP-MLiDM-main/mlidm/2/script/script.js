@@ -10,7 +10,7 @@ function check(txt)
     for(let i = 0; i < matrixElem.length; i++) {
         matrixPairs[i] = matrixElem[i].split(" ");
         if(matrixPairs[i].length > 2) {
-            alert("Количество элементов: " + matrixPairs[x].length + ", а должна 2");
+            alert("Количество элементов: " + matrixPairs[i].length + ", а должна 2");
             isTrue = false;
             break;
         }
