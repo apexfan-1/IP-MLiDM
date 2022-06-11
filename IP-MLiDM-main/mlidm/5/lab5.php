@@ -16,7 +16,10 @@
             <form action="" method="post" enctype="multipart/form-data" onsubmit="return false;">
                 <div id="graphView">
                     <label for="txtAr">Ввод матрицы смежности: </label>
-                    <textarea id="txtAr" spellcheck="false" placeholder="value0 value1 value2 ... valueN" name="graph"></textarea>
+                    <textarea id="txtAr" spellcheck="false" placeholder="1 * 0 *
+                                                                         1 0 1 *
+                                                                         * * 0 *
+                                                                         0 1 * 1" name="graph"></textarea>
                 </div>
                 <div id="commitView">
                     <button id="commit" type="submit" name="commit" onclick="doCommit();">Анализ по Уоршеллу</button>
